@@ -1,12 +1,14 @@
 html, body {
+    background-image: url("../images/url/gravel.png");
+    background-position: 100px;
     height: 100%;
     margin: 0;
 }
 
-.body {
-    background: url("/Basic-Portfolio/portfolio.html/assets/images/url/gravel.png");
+/* .body {
+    background-image: url("../assets/images/url/gravel.png");
     background-position: 100px;
-}
+} */
 
 
 /*HEADER MANIPULATION*/
@@ -56,16 +58,26 @@ html, body {
 /*PORTFOLIO LAYOUT*/
 
 #portfolio{
+    height: 946px;
     width: 946px;
     background-color: #4aaaa5;
     margin-left: 12%
 }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
+.column1 {
+    background-color: red;
     float: left;
     width: 40%;
     padding: 10px;
   }
+
+  .column2 {
+    background-color: blueviolet;
+    float: left;
+    width: 40%;
+    padding: 10px;
+  }
+
   /* Clear floats after image containers */
 .row::after {
     content: "";
@@ -73,7 +85,19 @@ html, body {
     display: table;
   }
 
+.container {
+    position: relative;
+}
 
+.text-block{
+    position: relative;
+    width: 90px;
+    bottom: 50px;
+    background-color: teal;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 /* CONTACT PAGE LAYOUT*/
 
