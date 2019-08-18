@@ -5,47 +5,60 @@ html, body {
     margin: 0;
 }
 
-/* .body {
-    background-image: url("../assets/images/url/gravel.png");
-    background-position: 100px;
-} */
-
-
 /*HEADER MANIPULATION*/
-   header {
+header {
        width: 1920px;
        height: 84px;
-       background-color: #4aaaa5;
+       background-color: #fff;
        border-bottom: 5px solid #dddddd;
     }
 
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    background-color: #4aaaa5;
+    position: relative;
+    display: inline;
+    padding-right: 10px;
+ }
+
+
 /*ABOUT ME PARAGRAPH*/
-    .para{
+.para{
         font-family: Arial, Helvetica, sans-serif;
-        margin: 3%;
-        width: 94%;
-        background-color: yellow 
+        margin-left: 30%;
+        width: 50%;
+        background-color:#fff;
     }
 
-/* FOOTER MANIPULATION*/
+#about{
+        height: 30px;
+        width: 75px;
+        background-color: #4aaaa4;
+        margin-left: 30%;
+        padding-left: 1%;
+}
 
-    .page-content {
+/*********************************************************FOOTER MANIPULATION*********************************************************/
+
+.page-content {
         min-height: 100%;
         /* negitive is the same measurement as the footer height*/
         margin-bottom: -50px;
     }
     
-    .page-content::after{
+ .page-content::after{
         content:"";
         display: block;
     }
     
-    footer, .page-content{
+footer, .page-content{
         text-align: center;
         height: 50px;
         background-color: #777777;
     }
-    .footer h1{
+.footer h1{
         font-family: Arial, Helvetica, sans-serif;
         text-transform: lowercase;
         text-align: center;
@@ -55,24 +68,22 @@ html, body {
         color: #fff;
     }
 
-/*PORTFOLIO LAYOUT*/
+/******************************************************PORTFOLIO LAYOUT***************************************************************/
 
 #portfolio{
     height: 946px;
     width: 946px;
-    background-color: #4aaaa5;
-    margin-left: 12%
+    background-color: #fff;
+    margin-left: 25%
 }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column1 {
-    background-color: red;
     float: left;
     width: 40%;
     padding: 10px;
   }
 
   .column2 {
-    background-color: blueviolet;
     float: left;
     width: 40%;
     padding: 10px;
@@ -91,7 +102,7 @@ html, body {
 
 .text-block{
     position: relative;
-    width: 90px;
+    width: 142px;
     bottom: 50px;
     background-color: teal;
     color: #fff;
@@ -99,16 +110,40 @@ html, body {
     padding-right: 10px;
 }
 
-/* CONTACT PAGE LAYOUT*/
+.text-block2{
+    font-size: 15px;
+    position: relative;
+    width: 142px;
+    bottom: 50px;
+    background-color: teal;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
-/* #contact{
-    width: 946px;
-    background-color: #4aaaa5;
-    margin-left: 12% */
+/* .portimg{
+    width: 150px;
+    height: 75px;
+} */
 
+
+
+
+/***************************************************CONTACT PAGE LAYOUT*********************************************************************/
+
+#contact{
+        height: 30px;
+        width: 75px;
+        background-color: #4aaaa4;
+        margin-left: 30%;
+        padding-left: 1%;
+    }
 
 form{
     margin-top: 50px;
+    margin-left: 30%;
+    background-color: #fff;
+    margin-right: 26%;
 }
 
 .form-control{
@@ -143,66 +178,12 @@ form.submit{
 }
 
 
-/* h4{
-    font-size: 10px;
-    background-color: #4aaaa5;
-    position: relative;
-    display: inline;
-     
-    
-}*/
-/*
- .article{
-    margin-left: 10px;
-    padding-top: 30px;
-}
-
-.rpg{
-    margin-left: 300px;
-    padding-top: 30px;
-}
-
-.trivia{
-    margin-left: 300px;
-    padding-top: 30px;
-}
-.rutgers{
-    margin-left: 300px;
-    padding-top: 30px;
-}
-
-.rock{
-    margin-left: 300px;
-    padding-top: 30px;
-} */
 
 
-
-
-
-
-
-
-
-
-
-
-/**/
-h5 {
-        font-family: Arial, Helvetica, sans-serif;
-        text-transform: uppercase;
-        position: relative;
-        background-color: azure;
-        position: relative;
-        display: inline;
-        padding-right: 10px;
-     }
-
-
-/***NAVBAR SETUP***/
+/**************************************NAVBAR SETUP********************************************************/
 
 .navbar{
-    margin-left: 800px;
+    margin-left: 1500px;
     padding-top: 30px;
 }
 li{
