@@ -2,43 +2,127 @@ html, body {
     background-image: url("../images/url/gravel.png");
     background-position: 100px;
     height: 100%;
-    margin: 0;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+
 }
 
-/*HEADER MANIPULATION*/
+*{
+    box-sizing: border-box;
+}
+
+
+/************************************************HEADER MANIPULATION**********************************************/
 header {
-       width: 1920px;
-       height: 84px;
+       width: 1920px ;
+       height: 90px;
        background-color: #fff;
        border-bottom: 5px solid #dddddd;
     }
 
+    
 h5 {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    position: relative;
     background-color: #4aaaa5;
-    position: relative;
     display: inline;
     padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 30%;
+    
  }
 
 
-/*ABOUT ME PARAGRAPH*/
+
+ 
+/**************************************NAVBAR SETUP********************************************************/
+
+.navbar{
+    margin-left: 1500px;
+    padding-top: 0px;
+}
+li{
+    color: #777777;
+    display: inline;
+    font-family: "Arial";
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #fff;
+    position: center;
+    
+}
+
+/*LINK MANIPULATION FOR NAVEBAR*/
+
+a:link{
+    text-decoration: none;
+}
+
+/*LINK MANIPULATION FOR NAVEBAR*/
+a:visited{
+    color: #777777;
+    text-decoration: none;
+    font-family: "Arial";
+    font-size: 16px;
+}
+
+/*LINK MANIPULATION FOR NAVEBAR*/
+a:hover {
+    color: #777777;
+    text-decoration: none;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*LINK MANIPULATION FOR NAVEBAR*/
+a:active {
+    color: #777777;
+    text-decoration: none;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/********************************************ABOUT ME BIO******************************************/
+
+.pad{
+    background: #4aaaa4;
+    text-align: center;
+    margin-left: 30%;
+    width:  10%;
+}
+#main-bio,
+#contact-info,
+#bio-img {
+    float: left;
+}
+
+#bio-img{
+    margin-right: 20px;
+}
+
 .para{
+    height: 946px;
+    width: 946px;
         font-family: Arial, Helvetica, sans-serif;
         margin-left: 30%;
         width: 50%;
         background-color:#fff;
     }
-
-#about{
+/* 
+.about{
         height: 30px;
         width: 75px;
         background-color: #4aaaa4;
         margin-left: 30%;
         padding-left: 1%;
-}
+} */
 
 /*********************************************************FOOTER MANIPULATION*********************************************************/
 
@@ -54,10 +138,16 @@ h5 {
     }
     
 footer, .page-content{
+    width: 1920px;
         text-align: center;
         height: 50px;
         background-color: #777777;
     }
+
+footer, .push{
+    height: 105px;
+}
+
 .footer h1{
         font-family: Arial, Helvetica, sans-serif;
         text-transform: lowercase;
@@ -69,6 +159,13 @@ footer, .page-content{
     }
 
 /******************************************************PORTFOLIO LAYOUT***************************************************************/
+
+.pad2{
+    background: #4aaaa4;
+    text-align: center;
+    margin-left: 0%;
+    width:  20%;
+}
 
 #portfolio{
     height: 946px;
@@ -97,7 +194,11 @@ footer, .page-content{
   }
 
 .container {
-    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+    /* position: relative; */
 }
 
 .text-block{
@@ -131,23 +232,23 @@ footer, .page-content{
 
 /***************************************************CONTACT PAGE LAYOUT*********************************************************************/
 
-#contact{
-        height: 30px;
-        width: 75px;
-        background-color: #4aaaa4;
-        margin-left: 30%;
-        padding-left: 1%;
-    }
+.pad3{
+    background: #4aaaa4;
+    text-align: center;
+    margin-left: 30%;
+    width:  10%;
+}
+
 
 form{
     margin-top: 50px;
     margin-left: 30%;
     background-color: #fff;
-    margin-right: 26%;
+    margin-right: 20.5%;
 }
 
 .form-control{
-    width: 600px;
+    width: 946px;
     background: transparent;
     border: none;
     outline: none;
@@ -175,55 +276,4 @@ form.submit{
 .form-submit{
     background-color: #4a4a4a;
     cursor: pointer;
-}
-
-
-
-
-/**************************************NAVBAR SETUP********************************************************/
-
-.navbar{
-    margin-left: 1500px;
-    padding-top: 30px;
-}
-li{
-    color: #777777;
-    display: inline;
-    font-family: "Arial";
-    padding-right: 10px;
-    padding-left: 10px;
-    background-color: #fff;
-    position: relative;
-}
-
-/*LINK MANIPULATION FOR NAVEBAR*/
-
-a:link{
-    text-decoration: none;
-}
-
-/*LINK MANIPULATION FOR NAVEBAR*/
-a:visited{
-    color: #777777;
-    text-decoration: none;
-    font-family: "Arial";
-    font-size: 16px;
-}
-
-/*LINK MANIPULATION FOR NAVEBAR*/
-a:hover {
-    color: #777777;
-    text-decoration: none;
-    font-family: "Arial";
-    font-size: 16px;
-    font-weight: bold;
-}
-
-/*LINK MANIPULATION FOR NAVEBAR*/
-a:active {
-    color: #777777;
-    text-decoration: none;
-    font-family: "Arial";
-    font-size: 16px;
-    font-weight: bold;
 }
