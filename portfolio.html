@@ -5,85 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="assets/style.css/style.css">
-
+    <title>Basic-Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/CSS/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
 </head>
 
 <body>
-    <header>
-        <sectoin id="nametag">
-            <h5>Geremy L. Pelleran</h5>
-        </sectoin>
-
-        <nav>
-            <ul class="navbar">
-                <li><a href="about.html">about</a></li>
-
-                <li><a href="portfolio.html">portfolio</a></li>
-
-                <li><a href="contact.html">contact</a></li>
-            </ul>
-        </nav>
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="epithet">Geremy L. Pelleran</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
     </header>
 
-    <div class="position">
-        <section id="portfolio">
-            <h2 class="pad2">Portfolio</h2>
-            <hr class="heavy">
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Portfolio</h1>
 
-            <div class="row">
-                <div class="column1">
-                    <div class="box">
-                        <img src="assets/images/ipad.jpg" alt="airpod" class="portimg">
-                        <div class="text-block">
-                            <p>HANGMAN</p>
-                        </div>
-                    </div>
+            <div class="game">
+                <img src="assets/images/ipad.jpg" alt="Hangman" class="auth-picture">
+                <h3>Hangman</h3>
+            </div>
 
+            <div class="game">
+                <img src="assets/images/record.jpg" alt="RPG Game" class="auth-picture">
+                <h3>RPG Game</h3>
+            </div>
 
-                    <div class="box">
-                        <img src="assets/images/record.jpg" alt="airpod" class="portimg">
-                        <div class="text-block">
-                            <p>RPG GAME</p>
-                        </div>
-                    </div>
+            <div class="game">
+                <img src="assets/images/airpod.jpg" alt="Trivia" class="auth-picture">
+                <h3>Trivia</h3>
+            </div>
 
+            <div class="game">
+                <img src="assets/images/phone.jpg" alt="Rutgers Info Widget" class="auth-picture">
+                <h3>Rutgers Info Widget</h3>
+            </div>
 
-                    <div class="box">
-                        <img src="assets/images/airpod.jpg" alt="airpod" class="portimg">
-                        <div class="text-block">
-                            <p>TRIVIA</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="column2">
-                    <div class="box">
-                        <img src="assets/images/phone.jpg" alt="airpod" class="portimg">
-                        <div class="text-block2">
-                            <P>RUTGERS INFO WIDGET</p>
-                        </div>
-                    </div>
-
-                    <div class="box">
-                        <img src="assets/images/lcd tv.jpg" alt="airpod" class="portimg">
-                        <div class="text-block2">
-                            <p>ROCK, PAPER, SISSORS</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="game">
+                <img src="assets/images/lcd tv.jpg" alt="Rock Paper Scissors" class="auth-picture">
+                <h3>Rock Paper Scissors</h3>
             </div>
         </section>
     </div>
 
-    <div class="clear"></div>
-
-    <div class="footer">
-        <footer>
-            <h1>Copyright 2019 &#169;</h1>
-        </footer>
-    </div>
+    <footer>
+        <div class="container">
+            &copy; copyright 2019
+        </div>
+    </footer>
 </body>
 
 </html>
